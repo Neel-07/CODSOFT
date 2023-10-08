@@ -3,41 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Landing Page</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Basic Calculator</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-    <section class="hero">
-        <h1>Welcome to Your Website</h1>
-        <p>Your awesome tagline goes here.</p>
-        <a href="#" class="cta-button">Get Started</a>
-    </section>
-    <section class="features">
-        <div class="feature">
-            <h2>Feature 1</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    <div class="calculator">
+        <input type="text" id="result" value="0">
+        <div class="buttons">
+            <button class="operator" value="C">C</button>
+            <button value="7">7</button>
+            <button value="8">8</button>
+            <button value="9">9</button>
+            <button class="operator" value="/">/</button>
+            <button value="4">4</button>
+            <button value="5">5</button>
+            <button value="6">6</button>
+            <button class="operator" value="*">*</button>
+            <button value="1">1</button>
+            <button value="2">2</button>
+            <button value="3">3</button>
+            <button class="operator" value="-">-</button>
+            <button value="0">0</button>
+            <button value=".">.</button>
+            <button class="operator" value="+">+</button>
+            <button id="calculate" value="=">=</button>
         </div>
-        <div class="feature">
-            <h2>Feature 2</h2>
-            <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-        </div>
-        <div class="feature">
-            <h2>Feature 3</h2>
-            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
-        </div>
-    </section>
-    <footer>
-        <p>&copy; 2023 Your Company Name</p>
-    </footer>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
