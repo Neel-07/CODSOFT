@@ -1,19 +1,11 @@
-# CODSOFT
 ## Project Overview
 
-This repository is part of a web development internship at [CODSOFT]. It includes the completion status of various tasks related to web development projects.
+###  Landing Page 
 
-
-## Task Status
-
-### Task 1: Landing Page (Branch: task-1)
-
-- **Status:** Completed
 - **Description:** The landing page project has been successfully completed. The landing page is designed using HTML and CSS, demonstrating the ability to create columns, divide sections, arrange items, and add headers and footers. The page is visually appealing and user-friendly, showcasing alignment, padding, color palette, and box elements.
 
-### Task 2: Personal Portfolio (Branch: task-2)
+### Task 2: Personal Portfolio 
 
-- **Status:** Completed
 - **Description:** The personal portfolio project has been completed. The portfolio includes the following sections:
   - Header Section: Featuring the name or logo.
   - About Section: An image and a short bio.
@@ -25,7 +17,6 @@ This repository is part of a web development internship at [CODSOFT]. It include
 
 ### Task 3: Basic Calculator (Branch: task-3)
 
-- **Status:** Completed
 - **Description:** The basic calculator project has been successfully completed. The calculator is implemented using HTML, CSS, and JavaScript. It provides an interactive interface with buttons for addition, subtraction, multiplication, and division operations. The calculator has a display screen to show user input and results. It utilizes CSS grid for button alignments and handles user input and calculations using event listeners, if-else statements, operators, and loops.
 
 ## Instructions for Testing
